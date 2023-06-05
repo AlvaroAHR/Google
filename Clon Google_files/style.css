@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body { 
+    background-color:  #ffffff ;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 12px;
+    height: 60px;
+    
+}
+
+
+.links  {
+    display: flex;
+    justify-content: end    ;
+    gap: 12PX;
+    align-items: center;
+      
+
+}
+
+
+.links  a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#202124;
+    font-family: 'Segoe UI', Tahoma, sans-serif
+}
+
+.applicacion {
+    display: inline-block;
+    background-image: url(app-menu-svgrepo-com.svg);
+    width: 30px;
+    height: 30px;
+    
+}
+
+.links a img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+
+.contenedor {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    /* background-color: indigo; */
+    
+}
+
+.buscador   {
+    display: inline-flex;
+    /* grid-template-columns: 10px 20px; */
+    align-items: center ;
+    justify-content:space-between;
+    gap: 8px;
+    border-color: #202124;
+    border: 12px;
+    padding: 2px;
+    height: 60px;
+    width: 100%;
+    
+    /* background-color: #202124; */
+    
+}
+
+.buscador input{
+    display: inline;
+    height: max-content;
+    padding: 4px 2px;
+    }
+
+button{
+    border-color: transparent;
+    cursor: pointer;
+    
+}
+
+#buscar {
+    border: 0;
+}
+
+
+section {
+    padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(150px);
+        /* height: 220PX; */
+        position: relative;
+        column-gap: 10px;
+        row-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, sans-serif
+        
+
+}
+
+.app {
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    color: #202124;
+    font-weight: 500;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+
+}
+.app span{
+    position: absolute;
+    text-align: center;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
